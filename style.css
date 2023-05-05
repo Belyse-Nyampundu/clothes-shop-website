@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Dosis:wght@200;300&family=Jost:wght@200;300&family=Montserrat:wght@100;200;300;400&family=Quicksand:wght@300;400&family=Ysabeau:wght@1;100;200;300;400;500;600&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ysabeau', sans-serif;;
+}
+    /* navigation bar */
+
+.main-menu a{
+    text-decoration: none;
+    color: black;
+  margin: 0 7px 0 20px;
+}
+@media screen and (max-width:700px){
+  .main-menu a{
+  margin: 0 3px 0 7px;
+  }
+}
+.main-menu{
+  text-align: center;
+  padding: 1em 0 1em;
+}
+
+
+/* end navigation bar */
+
+/* second menu start */
+.second-menu{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 5%;
+  background-color: #9487bf;
+ 
+}
+@media screen and (max-width:700px){
+  .second-menu{
+  /* display: block;
+  grid-template-columns: repeat(1,1fr); */
+/* width: 58%;
+height: 70%; */
+background-color: #9487bf;
+  }
+}
+@media screen and (max-width:400px){
+  .second-menu{
+    background-color: #9487bf; 
+
+}
+}
+.menu-image img{
+
+}
+@media screen and (max-width:700px){
+  .menu-image img{
+  width: 15em;
+  }
+}
+@media screen and (max-width:400px){
+  .menu-image img{
+  width: 10em;
+  
+  }
+}
+
+.small-second {
+    /* text-align: center; */
+    /* padding-left: 20%; */
+    padding: 120px 0 0 80px;
+    font-size: 2.2em;
+    color: white;
+}
+@media screen and (max-width:700px){
+  .small-second{
+    padding: 25px 0 0 40px;
+  font-size: 1.2em;
+  }
+}
+.small-second a button{
+    width: 30%;
+   height: 14%;
+   background-color: #ef8cb0;
+   border: none;
+   color: white; 
+}
+@media screen and (max-width:700px){
+  .small-second a button{
+   height: 10%;
+  width: 20%;
+  background-color: #ef8cb0;
+ 
+  }
+}
+
+/* end second menu */
+
+
+
+
+/* start  clothes ,menu */
+.menu-clothes{
+text-align: center;
+}
+@media screen and (max-width:700px){
+  .menu-clothes{
+  text-align: center;
+  }
+}
+.menu-clothes h6{
+
+}
+  @media screen and (max-width:700px){
+    .menu-clothes h6{
+    padding-right: 62%;
+    }
+  }
+
+
+
+.menu-clothes h1 span{
+ padding-left: 2%;
+}
+@media screen and (max-width:700px){
+  .menu-clothes h1{
+   padding-right: 62%; 
+  
+  }
+}
+.dresses{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media screen and (max-width:700px){
+  .dresses{
+  display: block;
+  grid-template-columns: repeat(1,1fr);
+  }
+}
+.first-dress{
+margin-left: 20%;
+}
+@media screen and (max-width:700px){
+  .first-dress{
+  margin-right: 10%;
+  }
+}
+.first-dress img{
+background-color: #e3ebf2;
+}
+.second-dress{
+    margin-left: 20%; 
+}
+@media screen and (max-width:700px){
+  .second-dress{
+  margin-right: 10%;
+  }
+}
+.second-dress img{
+
+  background-color: #f7f6f4;
+}
+.third-dress{
+    margin-left: 20%;
+}
+@media screen and (max-width:700px){
+  .third-dress{
+  margin-right: 10%;
+  }
+}
+.third-dress img{
+  background-color:  #f7f6f4;
+}
+.fourth-dress{
+    margin-left: 20%;
+}
+@media screen and (max-width:700px){
+  .fourth-dress{
+  margin-right: 10%;
+  }
+}
+.fourth-dress img{
+  background-color: #f7f6f4;
+}
+.clothes-button a button{
+    width: 195px;
+    height: 48px;
+    background-color: #ef8cb0;
+    border: none;
+    color: white;
+}
+@media screen and (max-width:700px){
+  .clothes-button a button{
+    margin-left: 2%; 
+  }
+}
+.clothes-button{
+   text-align: center;  
+}
+@media screen and (max-width:700px){
+ .clothes-button{
+  /* text-align: start; */
+  text-align: center;
+  }
+}
+.clothes-menu{
+    background-color: rgb(255,255,255);
+    /* padding-left: ; */
+}
+
+
+  /* end clothes-menu */
+
+
+
+
+  /* start under-clothes */
+  .under-clothes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px 0 0 0;
+  }
+  @media screen and (max-width:700px){
+  .under-clothes{
+    /* display: block;
+    grid-template-columns: repeat(1,1fr); */
+  }
+    
+    }
+  
+  .sport-women {
+ width: 80%;
+  /* padding-left: 10%;   */
+  margin-left: 3%;
+  background-image: url(/images/sp.jpg);
+  background-size: cover;
+  background-position: 10%;
+  color: white;
+   padding-top: 70%;  
+
+  }
+  @media screen and (max-width:700px){
+     .sport-women{
+    width: 76%;
+     padding-left: 20%; 
+    margin-left: 1%;
+     background-position: 40%; 
+     padding-left: 20px;
+   /* margin-bottom: 30px; */
+    } 
+  }
+  .sport-women a button{
+    width: 9em;
+    height: 15%;
+ color: white;
+ background-color:#ef8cb0 ;
+ border: none;
+  }
+  @media screen and (max-width:700px){
+    .sport-women a button{
+   width: 7em;
+   height: 2em;
+  
+   } 
+ }
+
+  .women-shoes{  
+    
+ width: 90%; 
+ background-image: url(/images/sh.jpg);
+ background-size: cover;
+  background-position: 10%; 
+
+ color: white;
+ padding-top: 32%;
+ padding-left: 10%;
+ margin-bottom: 2%;
+ padding-bottom: 20px;
+ }
+ @media screen and (max-width:700px){
+   .women-shoes{
+  width: 80%;
+  padding-left: 20%;
+ 
+  } 
+}
+ .women-shoes a button{
+    width: 9em;
+    height: 4em;
+ color: white;
+ background-color:#ef8cb0 ;
+ border: none;
+ }
+  .women-shoes2 {
+    width: 90%; 
+    background-image: url(/images/eight\ \(1\).png);
+    background-size: cover;
+    background-position: 10%;
+    color: white;
+     padding-top: 32%; 
+     padding-left: 10%;
+     margin-right: 3%;
+     padding-bottom: 20px;
+
+ } 
+ @media screen and (max-width:700px){
+  .women-shoes2{
+  width: 80%;
+  padding-left: 20%;
+  background-position: 50%;
+  } 
+}
+ 
+ .women-shoes2 a button{
+    width: 10em;
+    height: 4em;
+ color: white;
+ background-color:#ef8cb0 ;
+ border: none;
+ }
+  .women-shoe{
+ margin-left: -14%;
+ }  
+ @media screen and (max-width:700px){
+  .women-shoe{
+  /* margin-left: %; */
+  
+  }
+}
+  /* end under clothes */
+
+
+  /* start last-word menu */
+
+  .last-words{
+  text-align: center;
+  
+  }
+  @media screen and (max-width:700px){
+ .last-words{
+  /* text-align: start; */
+   padding-left: 20px; 
+ }
+ }
+  .last-words h1{
+    font-size: 3em;
+  }
+  @media screen and (max-width:700px){
+    .last-words h1{
+  font-size: 4em;
+    
+    }
+  }
+    .last-words p{
+
+    }
+    @media screen and (max-width:700px){
+      .last-words p{
+      font-size: 18px;
+      
+      }
+    }
+  
+/* END LAST-WORD MENU */
+.video-part img{
+
+}
+ @media screen and (max-width:700px){
+  .video-part img{
+ width: 42em;
+ 
+ 
+  
+  }
+}
+
+
+
+
+
+/* footer-menu */
+
+ .footer-menu{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+ padding-top: 7%; 
+padding: 100px 30px 0 5%;
+background-color: #ffffff;
+
+}
+@media screen and (max-width:700px){
+  .footer-menu{
+ display: block;
+ grid-template-columns: repeat(1,1fr);
+ padding: 100px 50px 0 50px;
+ font-size: 1.5em;
+  }
+}
+.footer-menu h6{
+  font-size: 1em;
+}
+.button-two{
+  width: 75%;
+  height: 13%;
+border-color: rgb(59, 58, 58);
+background-color: white;
+}
+@media screen and (max-width:700px){
+  .button-two{
+  width: 30%;
+ 
+ 
+  }
+}
+.button-one{
+  width: 50%;
+  height: 13%;
+  background-color:#ef8cb0 ;
+  color: white;
+  border: none;
+}
+@media screen and (max-width:700px){
+  .button-one{
+  width: 30%;
+  
+  }
+}
+.footer-four img{
+width: 25px;
+}
+.footer-four span img{
+  width: 43px;
+  padding-left: 7%;
+}
+@media screen and (max-width:700px){
+ .footer-four span img{
+  width: 90px;
+ }
+}
+.footer-one i{
+  font-size: 25px;
+  padding-left: 7%;
+}
+@media screen and (max-width:700px){
+  .footer-one i{
+ font-size: 19px;
+ padding-left: 5%;
+  }
+}
+.footer-three{
+  padding-left: 20%;
+}
+ @media screen and (max-width:700px){
+  .footer-three{
+padding-left: 10px;
+  }
+}
+.footer-two{
+  padding-left: 30%;
+}
+
+@media screen and (max-width:700px){
+.footer-two{
+padding-left: 10px;
+  }
+} 
